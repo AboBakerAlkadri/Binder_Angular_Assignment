@@ -1,0 +1,12 @@
+app-bar {
+    width: 100%;
+}
+
+app-course-card{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}

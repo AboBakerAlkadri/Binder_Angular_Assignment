@@ -1,0 +1,78 @@
+<div class="container">
+  <h1>My Profile</h1>
+  <div class="profile-container">
+    <div class="profile-image">
+      <img
+        src="https://img.freepik.com/premium-vector/anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.jpg"
+        alt="Profile Image"
+      />
+      <button (click)="logout()">logout</button>
+    </div>
+    <div class="user-details">
+      <form id="profileForm">
+        <div>
+          <label for="displayName">Display Name*</label>
+          <input type="text" id="displayName" name="displayName" required />
+        </div>
+        <div>
+          <label for="firstName">First Name*</label>
+          <input type="text" id="firstName" name="firstName" required />
+        </div>
+        <div>
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName" />
+        </div>
+        <div>
+          <label for="about">About Yourself (Max 100 chars)</label>
+          <textarea id="about" name="about" maxlength="100"></textarea>
+        </div>
+        <div>
+          <label>Area of Interest</label>
+          <select multiple>
+            <option value="interest1">Interest 1</option>
+            <option value="interest2">Interest 2</option>
+            <!-- Add more options here -->
+          </select>
+        </div>
+        <div>
+          <label>Are you a student or a professional?</label>
+          <input type="radio" id="student" name="status" value="student" />
+          <label for="student">Student</label>
+          <input
+            type="radio"
+            id="professional"
+            name="status"
+            value="professional"
+          />
+          <label for="professional">Professional</label>
+        </div>
+        <div id="professionalDetails" style="display: none">
+          <label for="experience">Experience</label>
+          <select id="experience" name="experience">
+            <option value="0-5">0-5</option>
+            <option value="5-10">5-10</option>
+            <option value="10+">10 & above</option>
+          </select>
+          <label>Expertise</label>
+          <input
+            type="checkbox"
+            id="backend"
+            name="expertise"
+            value="Back end"
+          />
+          <label for="backend">Back end</label>
+          <input
+            type="checkbox"
+            id="frontend"
+            name="expertise"
+            value="Front end"
+          />
+          <label for="frontend">Front end</label>
+          <label for="role">Mention your role (Max 200 chars)</label>
+          <textarea id="role" name="role" maxlength="200"></textarea>
+        </div>
+        <button type="submit" id="saveButton">Save</button>
+      </form>
+    </div>
+  </div>
+</div>

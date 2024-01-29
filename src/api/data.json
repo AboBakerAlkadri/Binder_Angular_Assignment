@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "courseName": "Advanced Machine Learning",
+    "author": "Alex Johnson",
+    "actualPrice": "₹1199",
+    "discountPercentage": "15%",
+    "tags": ["Machine Learning", "Python"],
+    "title": "Dive into Advanced Machine Learning Techniques",
+    "description": "This comprehensive course offers an in-depth exploration of advanced machine learning techniques, tailored for professionals seeking to deepen their understanding of this transformative technology. Participants will engage with complex algorithms, including neural networks and reinforcement learning, and will learn to implement these techniques in Python. Emphasis is placed on practical applications and real-world scenarios, ensuring learners can apply their knowledge in diverse fields such as finance, healthcare, and artificial intelligence. The course also covers ethical considerations in machine learning, preparing participants to navigate the evolving landscape of AI responsibly."
+  },
+  {
+    "id": 2,
+    "courseName": "JavaScript Frameworks Masterclass",
+    "author": "Emily White",
+    "actualPrice": "₹899",
+    "discountPercentage": "20%",
+    "tags": ["JavaScript", "React", "Vue"],
+    "title": "Mastering JavaScript and Its Popular Frameworks",
+    "description": "Embark on a journey to master the world of JavaScript and its most popular frameworks, React and Vue. This course is meticulously designed for web developers looking to elevate their skillset and build cutting-edge web applications. You'll gain a thorough understanding of JavaScript fundamentals before diving into the nuances of React and Vue, learning to create dynamic, responsive, and user-centric web solutions. The curriculum includes hands-on projects, best practices in coding, and insights into the latest trends in web development. Whether you aim to work on enterprise-level applications or innovative startups, this course is your gateway to becoming a JavaScript maestro."
+  },
+  {
+    "id": 3,
+    "courseName": "Full Stack Development with Django",
+    "author": "Chris Turner",
+    "actualPrice": "₹1499",
+    "discountPercentage": "10%",
+    "tags": ["Python", "Django", "JavaScript"],
+    "title": "Become a Full Stack Developer with Django",
+    "description": "This course provides a comprehensive pathway to becoming a Full Stack Developer using Django, the powerful Python-based framework. You will begin with the basics of Python, progressing to understand Django's structure and functionality. The course covers both backend and frontend development, integrating Django with JavaScript to create complete web applications. You'll work on real-life projects, gaining expertise in database management, RESTful APIs, and web security. Additionally, the course includes modules on responsive design and user experience, ensuring your applications are not only functional but also aesthetically pleasing and user-friendly. Ideal for aspiring developers, this course is a blend of theory, practical knowledge, and industry insights."
+  },
+  {
+    "id": 4,
+    "courseName": "Cybersecurity Essentials",
+    "author": "Sophia Davis",
+    "actualPrice": "₹1299",
+    "discountPercentage": "25%",
+    "tags": ["Cybersecurity", "Network Security"],
+    "title": "Essential Cybersecurity Strategies and Protocols",
+    "description": "In a world increasingly threatened by cyber attacks, this course offers essential knowledge in cybersecurity and network protection. Tailored for both IT professionals and enthusiasts, it covers the fundamentals of securing networks, systems, and data from various cyber threats. Learn about encryption, firewalls, antivirus software, and other defensive mechanisms. The course also delves into ethical hacking, teaching you to think like a hacker to better defend against attacks. Real-world case studies provide insight into how cybersecurity measures are implemented in different industries. Upon completion, you will have a solid foundation in cybersecurity, ready to protect digital assets in any organizational setting."
+  },
+  {
+    "id": 5,
+    "courseName": "Mobile App UX Design",
+    "author": "Daniel Smith",
+    "actualPrice": "₹999",
+    "discountPercentage": "18%",
+    "tags": ["UX Design", "Mobile App Development"],
+    "title": "Designing User-Friendly Mobile Applications",
+    "description": "This course offers an extensive exploration into the world of mobile app UX design, focusing on creating user-centric interfaces for mobile devices. It's designed for aspiring UX designers and app developers, covering everything from basic design principles to advanced techniques in user experience. You will learn about user research, wireframing, prototyping, and usability testing, all tailored specifically for mobile applications. The course also emphasizes the importance of accessibility and inclusive design. By the end of the course, you will be able to design apps that are not only visually appealing but also intuitive and easy to navigate, enhancing the overall user experience."
+  },
+  {
+    "id": 6,
+    "courseName": "Node.js for Beginners",
+    "author": "Ava Williams",
+    "actualPrice": "₹699",
+    "discountPercentage": "22%",
+    "tags": ["Node.js", "JavaScript"],
+    "title": "Introduction to Node.js for Aspiring Developers",
+    "description": "This beginner-friendly course introduces you to Node.js, a powerful JavaScript runtime environment. It's ideal for those looking to expand their web development skills into server-side programming. You'll start with the basics of Node.js, exploring its asynchronous programming model and how it differs from traditional JavaScript. The course covers essential topics such as Express.js for web applications, handling databases, and creating REST APIs. You'll also learn best practices for Node.js development and how to deploy your applications. By the end, you'll have built several real-world projects, equipping you with the skills needed to create robust back-end solutions."
+  },
+  {
+    "id": 7,
+    "courseName": "Artificial Intelligence in Business",
+    "author": "Noah Turner",
+    "actualPrice": "₹1599",
+    "discountPercentage": "12%",
+    "tags": ["Artificial Intelligence", "Business"],
+    "title": "Leveraging AI in the Business World",
+    "description": "This course bridges the gap between artificial intelligence and business applications, offering a comprehensive look at how AI can transform business processes. Aimed at business professionals and managers, the course demystifies AI, providing a clear understanding of its capabilities and limitations. You'll learn how AI can be applied in areas like marketing, customer service, and supply chain management. Real-world case studies illustrate AI's impact in various industries, and practical exercises help you conceptualize AI strategies for your organization. The course also discusses ethical considerations and future trends in AI, preparing you to make informed decisions in an increasingly AI-driven world."
+  },
+  {
+    "id": 8,
+    "courseName": "Swift Programming for iOS",
+    "author": "Emma Johnson",
+    "actualPrice": "₹1099",
+    "discountPercentage": "17%",
+    "tags": ["iOS", "Swift"],
+    "title": "Master Swift for iOS App Development",
+    "description": "This course offers a deep dive into Swift, Apple's innovative programming language for iOS app development. Starting with the basics, you'll quickly move to advanced topics, including Swift's modern syntax, functional programming features, and error handling. The course also covers iOS-specific frameworks and APIs, helping you build sophisticated and interactive applications. You'll learn about user interface design, data persistence, and network communication, all within the iOS ecosystem. Hands-on projects, including building a fully functional app from scratch, reinforce your learning and provide practical experience. Ideal for both beginners and experienced developers, this course is your comprehensive guide to iOS development with Swift."
+  },
+  {
+    "id": 9,
+    "courseName": "Responsive Web Design Principles",
+    "author": "Liam White",
+    "actualPrice": "₹799",
+    "discountPercentage": "21%",
+    "tags": ["Web Design", "HTML", "CSS"],
+    "title": "Creating Responsive and Aesthetic Web Designs",
+    "description": "In this course, you'll learn the principles of responsive web design, a crucial skill in today's mobile-first world. We'll start with the basics of HTML and CSS, building a strong foundation before diving into advanced topics like Flexbox and CSS Grid. You'll learn how to create websites that adapt seamlessly to different screen sizes, ensuring a flawless user experience on any device. The course also covers design principles, typography, color theory, and accessibility, ensuring your websites are not only functional but also visually appealing and accessible to all users. By the end, you'll be able to design and build professional-quality, responsive websites."
+  },
+  {
+    "id": 10,
+    "courseName": "Java Fundamentals",
+    "author": "Olivia Turner",
+    "actualPrice": "₹899",
+    "discountPercentage": "0",
+    "tags": ["Java"],
+    "title": "Building a Strong Foundation in Java",
+    "description": "This course is designed for those who want to gain a strong foundation in Java, one of the most widely-used programming languages. It covers everything from basic syntax and programming constructs to advanced concepts like object-oriented programming and exception handling. You'll learn how to write efficient Java code, work with various data structures, and understand how Java is used in real-world applications. The course includes practical exercises and projects that allow you to apply your learning immediately. Whether you're a beginner or looking to refresh your Java skills, this course offers a comprehensive and hands-on approach to mastering Java programming."
+  },
+  {
+    "id": 11,
+    "courseName": "Game Development with Unity",
+    "author": "Lucas Davis",
+    "actualPrice": "₹1399",
+    "discountPercentage": "14%",
+    "tags": ["Game Development", "Unity"],
+    "title": "Creating Immersive Games with Unity",
+    "description": "Dive into the world of game development with this comprehensive course on Unity, a leading game development platform. You'll start by understanding the basics of Unity's interface and scripting in C#. The course guides you through the process of creating 2D and 3D games, offering practical experience in game physics, animations, and AI. You'll also learn about mobile game development and how to optimize games for various platforms. By the end of the course, you'll have developed several games of your own and gained a solid understanding of game development processes and best practices. Whether you're a beginner or an experienced developer, this course will enhance your game development skills."
+  },
+  {
+    "id": 12,
+    "courseName": "Python for Data Science",
+    "author": "Aria Smith",
+    "actualPrice": "₹1199",
+    "discountPercentage": "0",
+    "tags": ["Python", "Data Science"],
+    "title": "Data Science Essentials with Python",
+    "description": "This course is an ideal starting point for anyone interested in the field of data science. Using Python, one of the most popular languages for data analysis, you'll learn to manipulate and visualize data, conduct statistical analysis, and build predictive models. The course covers key libraries like Pandas, NumPy, Matplotlib, and scikit-learn, providing hands-on experience through real-world datasets and projects. You'll also learn the fundamentals of machine learning, enabling you to uncover insights and make data-driven decisions. Whether you're a beginner or looking to enhance your data skills, this course offers a comprehensive introduction to the exciting world of data science with Python."
+  },
+  {
+    "id": 13,
+    "courseName": "Frontend Development Bootcamp",
+    "author": "Mia Johnson",
+    "actualPrice": "₹999",
+    "discountPercentage": "18%",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "title": "Comprehensive Frontend Development Training",
+    "description": "Embark on an intensive journey into frontend development with this bootcamp-style course. You'll start with the basics of HTML and CSS, learning to create structured and styled web pages. The course then dives deep into JavaScript, the language that brings interactivity to the web. You'll learn about DOM manipulation, event handling, and AJAX, along with modern JavaScript frameworks and libraries. The course also covers responsive design, accessibility, and best practices for performance and optimization. By the end, you'll have built several projects, including a fully-functional web application, and be well-prepared to start your career as a frontend developer."
+  },
+  {
+    "id": 14,
+    "courseName": "C# Programming Mastery",
+    "author": "Jackson White",
+    "actualPrice": "₹1099",
+    "discountPercentage": "0",
+    "tags": ["C#"],
+    "title": "Mastering C# for Software Development",
+    "description": "This course offers an in-depth exploration of C#, a versatile language used in a variety of applications from desktop software to game development. You'll start with the basics of C# syntax and gradually progress to advanced topics like object-oriented programming, LINQ, and async programming. The course includes practical examples and projects, helping you to apply your learning in real-world scenarios. You'll also learn about .NET Core and how C# can be used for cross-platform development. Whether you're new to programming or an experienced developer looking to add C# to your skillset, this course provides a comprehensive guide to mastering C# programming."
+  },
+  {
+    "id": 15,
+    "courseName": "Angular Framework Deep Dive",
+    "author": "Ava Turner",
+    "actualPrice": "₹1299",
+    "discountPercentage": "15%",
+    "tags": ["Angular"],
+    "title": "Advanced Angular Techniques for Professional Developers",
+    "description": "Take a deep dive into Angular, one of the most popular frameworks for building dynamic web applications. This course covers everything from the basics of TypeScript, which Angular is built upon, to advanced concepts like RxJS and state management. You'll learn how to build scalable, maintainable, and efficient web applications using Angular's robust architecture. The course includes hands-on projects that simulate real-world scenarios, enhancing your learning experience. Topics like Angular Material, forms, and authentication are also covered, providing a comprehensive understanding of Angular's ecosystem. Ideal for developers looking to specialize in Angular or expand their front-end development skills."
+  },
+  {
+    "id": 16,
+    "courseName": "Data Visualization with D3.js",
+    "author": "Ethan Davis",
+    "actualPrice": "₹899",
+    "discountPercentage": "0",
+    "tags": ["Data Visualization", "D3.js"],
+    "title": "Creating Interactive Data Visualizations with D3.js",
+    "description": "Delve deep into the world of data visualization with this comprehensive course on D3.js, a powerful JavaScript library known for its ability to produce dynamic, interactive, and high-quality data visualizations. Ideal for data scientists, analysts, and web developers, this course will take you on a journey from the fundamentals of D3.js to advanced techniques. You'll learn how to manipulate documents based on data, enabling you to create an array of visualizations from simple bar charts to complex hierarchical diagrams. The course covers data binding, scales, axis, SVG elements, and transitions, ensuring a deep understanding of D3's capabilities. You'll also tackle real-world projects and data sets, culminating in the ability to integrate D3.js visualizations into web applications, making data more accessible and engaging."
+  },
+  {
+    "id": 17,
+    "courseName": "Android App Development Basics",
+    "author": "Isabella Smith",
+    "actualPrice": "₹799",
+    "discountPercentage": "0",
+    "tags": ["Android", "Mobile App Development"],
+    "title": "Foundations of Android App Development",
+    "description": "This course offers a thorough introduction to Android App Development, perfect for beginners aspiring to enter the mobile app development field. You will start with the fundamentals of Android architecture and gradually progress to building simple applications, learning the intricacies of the Android SDK and Android Studio along the way. The course includes practical sessions on UI design, data storage, and handling user interaction, ensuring a holistic approach to app development. You'll learn how to create responsive layouts that adapt to different screen sizes, integrate third-party libraries, and understand the principles of Material Design. The course also covers essential aspects of app deployment, including debugging, testing, and publishing apps on the Google Play Store. By the end, you'll have the skills and confidence to build functional, user-friendly Android applications."
+  },
+  {
+    "id": 18,
+    "courseName": "Vue.js for Frontend Development",
+    "author": "Logan Johnson",
+    "actualPrice": "₹999",
+    "discountPercentage": "18%",
+    "tags": ["Vue.js", "JavaScript"],
+    "title": "Developing Cutting-Edge Frontends with Vue.js",
+    "description": "Embark on a journey to master Vue.js, a progressive JavaScript framework used for building user interfaces and single-page applications. This course is designed for frontend developers who want to elevate their skillset with one of the most efficient and easy-to-learn frameworks in the industry. Starting with the basics of Vue.js, the course covers its core concepts like components, directives, and the Vue CLI. You'll learn how to build reactive web interfaces, manage state using Vuex, and route with Vue Router. The course also emphasizes best practices in code organization and application scalability. Real-world projects are integrated throughout the course, providing hands-on experience in building complex applications with Vue.js. By the end of the course, you'll be adept at using Vue.js to deliver rich, interactive web experiences."
+  },
+  {
+    "id": 19,
+    "courseName": "Cloud Computing Fundamentals",
+    "author": "Sophie Turner",
+    "actualPrice": "₹1199",
+    "discountPercentage": "16%",
+    "tags": ["Cloud Computing"],
+    "title": "Essential Guide to Cloud Computing",
+    "description": "This course is an extensive guide to cloud computing, designed for those who seek to understand the core concepts and practical applications of cloud technologies. Starting with the basics, it covers different cloud service models like IaaS, PaaS, and SaaS, and deployment models such as public, private, and hybrid clouds. You'll learn about the major cloud providers, such as AWS, Azure, and Google Cloud, and how to utilize their services for storage, computing, and networking. The course addresses key concepts like virtualization, scalability, and cloud security, ensuring a comprehensive understanding of cloud infrastructure and its challenges. Case studies and real-world scenarios are integrated, providing insights into how cloud computing is transforming industries. By the end, you'll have a solid foundation in cloud computing principles, ready to leverage cloud solutions in various IT roles."
+  }
+]

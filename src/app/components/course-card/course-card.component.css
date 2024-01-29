@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.courses-banner {
+    padding: 25px;
+    width: 100%;
+    background-color: lightcoral;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.courses-banner h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.cards {
+    display: flex;
+    /* justify-content: space-between;
+    flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 2500px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    font-family: arial;
+    max-width: 400px;
+    margin: 30px;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+.card-arrow {
+    font-size: 30px;
+}
+
+.price {
+    color: tomato;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+}
+
+.discount {
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.author {
+    color: rgb(37, 83, 98);
+    font-size: 17px;
+}
+
+.arrow {
+    text-align: center;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.arrow:hover {
+    transform: translateX(20px);
+    color: lightgreen;
+}
+
+.card h1 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.add-to {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    border-right: 1px solid #ccc;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.tags {
+    display: inline;
+}
+
+p.tags {
+    color: tomato;
+}
+
+p.tags .tag {
+    color: #000;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+}

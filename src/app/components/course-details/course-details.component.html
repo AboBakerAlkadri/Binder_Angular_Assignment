@@ -1,0 +1,43 @@
+<div class="courses-banner">
+  <h1>Discover Latest Courses on React!</h1>
+</div>
+
+<ul class="breadcrumb">
+  <li><a href="/courses"> All Courses</a></li>
+  <li><a href="#">The Complete Angular Developer Course</a></li>
+</ul>
+
+<div class="course-details-container">
+  <!-- Course Content on the Left -->
+  <div class="course-content">
+    <h2 class="course-detail-title">{{ course.title }}</h2>
+    <p class="course-detail-description">
+      {{ course.description }}
+    </p>
+    <!-- ... other course details ... -->
+  </div>
+
+  <!-- Video Card on the Right -->
+  <div class="video-card">
+    <iframe
+      src="https://www.youtube.com/embed/w7ejDZ8SWv8?si=wHVuBqaA4Fq0GAfj"
+      frameborder="0"
+      class="course-video"
+      allowfullscreen
+    ></iframe>
+    <p class="price">{{ course.actualPrice }}</p>
+    <p class="discount">{{ course.discountPercentage }}</p>
+    <div class="add-to">
+      <p>
+        <button type="button">
+          <i class="fa fa-fw fa-cart-plus"></i> Add to Cart
+        </button>
+      </p>
+      <p>
+        <button type="button" (click)="addToWishlist(course)">
+          <i class="fa fa-fw fa-star"></i> Add to Wishlist
+        </button>
+      </p>
+    </div>
+  </div>
+</div>

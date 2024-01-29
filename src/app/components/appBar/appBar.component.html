@@ -1,0 +1,36 @@
+<div class="navbar">
+  <!-- Home Link -->
+  <a class="active split" (click)="navigate('/')" routerLinkActive="active"
+    ><i class="fa fa-fw fa-building"></i> Home</a
+  >
+  <div (click)="navigate('profile')">
+    <a><i class="fa fa-fw fa-user"></i> Profile</a>
+  </div>
+
+  <a routerLink="/cart-details">
+    <i class="fa fa-fw fa-info"></i> Cart Details
+  </a>
+  <div (click)="navigate('wish-list')">
+    <a><i class="fa fa-fw fa-star"></i> My Wish List</a>
+  </div>
+  <div (click)="navigate('courses')">
+    <a><i class="fa fa-fw fa-book"></i> Courses</a>
+  </div>
+  <div (click)="navigate('login')">
+    <a><i class="fa fa-fw fa-right-to-bracket"></i> Login</a>
+  </div>
+
+  <div class="search-box">
+    <form action="/action_page.php">
+      <input
+        type="text"
+        [(ngModel)]="searchAttribute"
+        placeholder="Search.."
+        name="searchAttribute"
+      />
+      <button (click)="searchNavigate()">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+<div class="courses-banner">
+  <h1>Discover Latest Courses on Angular!</h1>
+</div>
+
+<div class="cards">
+  <div *ngFor="let course of myData">
+    <div class="card">
+      <h1>{{ course.courseName }}</h1>
+      <p class="author">{{ course.author }}</p>
+      <p class="price">{{ course.actualPrice }}</p>
+      <p class="discount">{{ course.discountPercentage }}</p>
+      <div class="arrow" (click)="navigate(course)">
+        <i class="fa fa-fw fa-arrow-right"></i>Explore More
+      </div>
+
+      <div class="add-to">
+        <p>
+          <button type="button">
+            <i class="fa fa-fw fa-cart-plus"></i> Add to Cart
+          </button>
+        </p>
+        <p>
+          <button (click)="addToWishlist(course)" type="button">
+            <i class="fa fa-fw fa-star"></i> Add to Wishlist
+          </button>
+        </p>
+      </div>
+      <p class="tags">
+        Tags: <span class="tag">{{ course.tags }}</span>
+      </p>
+    </div>
+  </div>
+</div>
